@@ -23,6 +23,44 @@
 .default {background-color: #e7e7e7; color: black;} /* Gray */ 
 .default:hover {background: #ddd;}
 
+.download {background-color: DodgerBlue;} /*download button*/
+.download:hover {background-color: RoyalBlue;}
+
+/*notification button styling*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification {
+  background-color: #555;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+
+
 /* social media buttons */
 .fa {
   padding: 20px;
