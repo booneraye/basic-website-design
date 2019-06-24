@@ -26,3 +26,17 @@ var countdownfunction = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+// Tyewriter Effect
+var c = 0;
+var txt = 'COMING BACK SOON!';
+var speed = 100;
+
+function typeWriter() {
+  if (c < txt.length) {
+    document.getElementById("typewriter-effect").innerHTML += txt.charAt(c);
+    c++;
+    setTimeout(typeWriter, speed);
+  }
+}
