@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('C:/Users/Biyaheroes/Documents/Web development Project/basic-website-design/images/background.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo{
+  width: 150px;
+  padding-left: 25px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
